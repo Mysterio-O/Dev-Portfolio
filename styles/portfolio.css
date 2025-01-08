@@ -189,3 +189,39 @@ main section{
 .cv-btn {
     margin-top: 50px;
 }
+
+/* footer style starts from here */
+
+.footer {
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+    background-image: linear-gradient(to right, #FFF8F3 , white);
+    
+}
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+.column-description {
+    font-size: 16px;
+    color: #474747;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"], input[type="email"], footer textarea {
+    height: 64px;
+    background-color: white;
+    color: #757575;
+    padding: 18px 30px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+footer textarea {
+    height: 180px;
+    font-size: 16px;
+}
